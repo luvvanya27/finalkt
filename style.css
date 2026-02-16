@@ -1,0 +1,66 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Verdana, sans-serif; background: #111; color: #fff; }
+
+.header {
+  position: fixed; top: 0; left: 0; right: 0;
+  background: #1c1c1c; padding: 18px; z-index: 10;
+}
+.nav { display: flex; justify-content: center; gap: 25px; }
+.nav a { color: #fff; text-decoration: none; }
+
+section { min-height: 100vh; padding: 120px 20px 40px; text-align: center; }
+
+.cover1 {
+  background: #181818;
+}
+.cover2 {
+  background: #202020;
+}
+
+.title {
+  font-size: 42px; margin-bottom: 20px;
+  background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 8px;
+}
+
+.hero-img, .about-img {
+  width: 55%;
+  max-width: 650px;
+  border-radius: 12px;
+  margin: 20px auto;
+  display: block;
+}
+
+.btn {
+  display: inline-block; padding: 12px 20px;
+  background: #ffcc00; color: #000; text-decoration: none;
+  border-radius: 6px; margin-top: 20px;
+}
+
+.programs { background: #1a1a1a; }
+.grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 20px; max-width: 1100px; margin: 0 auto;
+}
+
+.card {
+  padding: 20px; border-radius: 10px;
+  background: #222; border: 1px solid #333;
+}
+.card img {
+  width: 100%; border-radius: 10px; margin-bottom: 10px;
+}
+
+.c1 { background: #2a2a2a; }
+.c2 { background: #262626; }
+.c3 { background: #303030; }
+.c4 { background: #2d2d2d; }
+.c5 { background: #242424; }
+.c6 { background: #2f2f2f; }
+
+.about { background: #141414; }
+
+.footer {
+  background: #1c1c1c; padding: 40px 20px; text-align: left;
+}
+.footer ul { list-style: none; padding: 0; display: flex; gap: 20px; }
+.footer a { text-decoration: none; color: #fff; }
